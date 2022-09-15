@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * print_number -  checks for checks for a digit (0 through 9).
@@ -42,4 +42,5 @@ void print_number(int n)
 			_putchar (m + '0');
 			b = b / 10;
 		}
-	
+	}
+}
