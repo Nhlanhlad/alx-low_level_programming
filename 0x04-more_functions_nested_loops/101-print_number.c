@@ -42,5 +42,4 @@ void print_number(int n)
 			_putchar (m + '0');
 			b = b / 10;
 		}
-	}
-}
+	
