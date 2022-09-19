@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * puts2 - print reverse characters
+ * puts2 - print reverse characters.
  * @s: validate the character
- * return: always 0
+ * Return: Always 0.
  */
 void puts2(char *str)
 {
