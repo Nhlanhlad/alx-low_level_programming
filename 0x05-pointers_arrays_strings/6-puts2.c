@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts2 - print reverse characters.
+ * puts2 - takes a pointer to the parameter.
  * @s: validate the character
  * Return: Always 0.
  */
