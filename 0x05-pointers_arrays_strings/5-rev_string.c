@@ -1,10 +1,11 @@
 #include "main.h"
+#include <stdio.h>
 
 
 /**
- * rev_string - print reverse character
+ * rev_string - print reverse characters
  * @s: validate the character
- * Return: always 0.
+ * Return: Always 0.
  */
 void rev_string(char *s)
 {
@@ -15,7 +16,7 @@ void rev_string(char *s)
 	{
 		i++;
 	}
-	i++;
+	i--;
 	while (i > a)
 	{
 		Aux = s[i];
