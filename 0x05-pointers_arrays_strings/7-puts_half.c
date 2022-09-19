@@ -1,5 +1,6 @@
 #include "main.h"
 
+
 /**
  * puts_half - print reverse characters.
  * @str: validate the character
@@ -19,7 +20,7 @@ void puts_half(char *str)
 		n = (i + 1) / 2;
 		while (str[n] != '\0')
 		{
-		_putchar(str[n] != '\0')
+		_putchar(str[n]);
 		n++;
 		}
 	}
