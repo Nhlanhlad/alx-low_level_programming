@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print array - print reverse characters
+ * print_array - print reverse characters
  * @a: array
  * @n: Number of array
  * return: Always 0
