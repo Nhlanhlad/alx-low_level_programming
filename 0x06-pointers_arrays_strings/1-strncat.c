@@ -1,5 +1,6 @@
 #include "main.h"
 
+
 /**
  * _strncat -  function that concatenates two strings.
  * @n: size of character to contatenate
