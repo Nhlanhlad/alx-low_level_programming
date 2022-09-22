@@ -1,9 +1,8 @@
 #include "main.h"
-
 /**
- * print_number -  checks for checks for a digit (0 through 9).
- * @n: n - variable
- * Return:Always 0
+ * print_number -  prints an integer
+ * @n: integer to be printed
+ *
  */
 void print_number(int n)
 {
