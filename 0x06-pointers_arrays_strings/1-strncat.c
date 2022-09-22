@@ -3,7 +3,7 @@
 
 /**
  * _strncat -  function that concatenates two strings.
- * @n: size of character to contatenate
+ * @n: size of character to concatenate
  * @dest: s1
  * @src: s2
  * Return: Always 0.
@@ -14,7 +14,7 @@ char *_strncat(char *dest, char *src, int n)
 
 	while (dest[i] != '\0')
 	{
-		i+=;
+		i++;
 	}
 	while (src[c] != '\0')
 	{
