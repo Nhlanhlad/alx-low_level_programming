@@ -8,11 +8,11 @@
  * @n: length of buffer
  * Return: Always 0.
  */
-char *_memset(char *s, char b, unsigned int n);
+char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
 
-	while (i < n)
+	for (i = 0; i < n; i++)
 	{
 		*(s + i) = b;
 	}
