@@ -8,9 +8,15 @@
  */
 int sqrt_a(int a, int b)
 {
-	if (n == 1 || n == 0)
-		return (n);
-	return (_sqrt(0, n));
+	if (b * b == a)
+	{
+		return (b);
+	}
+	else if (b * b > a)
+	{
+		return (-1);
+	}
+	return (sqrt_a(a, b + 1));
 }
 
 /**
@@ -22,5 +28,4 @@ int sqrt_a(int a, int b)
  */
 int _sqrt_recursion(int n)
 {
-	return (sqrt_a(n, 0));
-}
+	return (sqrt_a(n, 0
